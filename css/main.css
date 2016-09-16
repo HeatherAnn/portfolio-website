@@ -19,11 +19,8 @@ html {
 body {
   background-color: black;
   font-family: 'Source Sans Pro', sans-serif;
-}
-
-.border {
   border: 3px solid white;
-  margin: 2em;
+  margin: 1em;
 }
 
 h1 {
