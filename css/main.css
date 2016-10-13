@@ -65,14 +65,46 @@ a:hover {
   padding: 0.15em;
 }
 
+.bottomcontent {
+  margin-bottom: 100px;
+}
+
 div.container {
   display:inline-block;
 }
 
 /*FOOTER*/
 
+.wrap {
+		position:relative;
+	}
+
+#footer {
+		width:100%;
+    position:fixed;
+		bottom:0;
+		z-index:999999;
+    background-color: black;
+	}
+
 .copywright {
   color: white;
+  margin-right: 40px;
+}
+
+.instagram {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.behance {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.twitter {
+  width: 20px;
+  margin-right: 10px;
 }
 
 /*ABOUT*/
@@ -82,8 +114,8 @@ div.container {
   padding: 0.15em;
 }
 
-h1, h2 {
-  font-size: 20px;
+h1 {
+  font-size: 30px;
   color: white;
 }
 
@@ -97,12 +129,11 @@ h1, p, label {
   color: white;
 }
 
-fieldset {
-  background-color: white;
-  margin-top: 150px;
-  margin-left: 500px;
-  margin-right: 500px;
+.bordertop {
+  border-top: 1px solid white;
 }
+
+
 @media only screen and (min-width: 34em) {
 
   li {
