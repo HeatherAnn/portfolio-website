@@ -21,25 +21,33 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
-  color: white;
-  text-align: center;
-  font-weight: 300;
-  font-size: 20px;
+/*HEADER*/
+
+div.fixedheader {
+  position: fixed;
+  width: 100%;
+  background-color: black;
 }
 
-p {
+nav {
+  display: inline-block;
+}
+
+.rose {
+  width: 100px;
+  display: inline-block;
+}
+
+li {
   color: white;
-  text-align: center;
   font-weight: 300;
-  font-size: 16px;
+  display: block;
 }
 
 a {
   color: white;
   text-align: center;
   font-weight: 300;
-  font-size: 16px;
   text-decoration: none;
 }
 
@@ -47,6 +55,67 @@ a:hover {
   color: #58595b;
 }
 
-img {
-  text-align: center;
+/*CONTENT*/
+
+.topcontent {
+  margin-top: 150px;
+}
+
+.content {
+  padding: 0.15em;
+}
+
+div.container {
+  display:inline-block;
+}
+
+/*FOOTER*/
+
+.copywright {
+  color: white;
+}
+
+/*ABOUT*/
+
+.featurevideo {
+  margin-top: 150px;
+  padding: 0.15em;
+}
+
+h1, h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+/*CONTACT*/
+
+h1, p, label {
+  color: white;
+}
+
+fieldset {
+  background-color: white;
+  margin-top: 150px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+@media only screen and (min-width: 34em) {
+
+  li {
+    padding-left: 30px;
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .bio {
+    margin-top: 150px;
+  }
+
 }

@@ -4,7 +4,7 @@ Heather Bisaillion
 
 Heather Bisaillion; Graphic Designer, Illustrator & Fine Artist.
 
-Ottawa-based designer specializing in illustration. I produce unique creations that speak to various brands and styles.
+Ottawa-based designer specializing in illustration, producing unique creations that speak to various brands and styles.
 
 **[heather.bisaillion@gmail.com](mailto:heather.bisaillion@gmail.com)**
 [GitHub](https://github.com/HeatherAnn)
