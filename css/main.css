@@ -40,6 +40,16 @@ nav {
   display: inline-block;
 }
 
+.smallrose {
+  width: 70px;
+  display: block;
+  margin-right: 20px;
+}
+
+.backbutton {
+  margin-left: 12px;
+}
+
 li {
   color: white;
   font-weight: 300;
@@ -58,6 +68,23 @@ a:hover {
 }
 
 /*CONTENT*/
+
+.previewimg {
+    -webkit-filter: brightness(100%);
+}
+
+.previewimg:hover {
+    -webkit-filter: brightness(30%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.display {
+  -webkit-filter: brightness(100%);
+}
 
 .topcontent {
   margin-top: 150px;
