@@ -69,6 +69,49 @@ a:hover {
 
 /*CONTENT*/
 
+h2 {
+  color: white;
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.images {
+  overflow: hidden;
+  position: relative;
+}
+
+.title-container {
+  position: absolute;
+  z-index: 1;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 0.2s ease;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  line-height: 0.25em;
+  font-size: 2em;
+}
+
 .previewimg {
     -webkit-filter: brightness(100%);
 }

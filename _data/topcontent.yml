@@ -1,0 +1,19 @@
+- image: "images/swallow.jpg"
+  itemprop: "swallow portfolio piece"
+  link: "swallow"
+  alt: "preview for a swallow drawing."
+
+- image: "http://placehold.it/500x500"
+  itemprop: "swallow portfolio piece"
+  link: "swallow"
+  alt: "asdasdrawing."
+
+- image: "http://placehold.it/500x500"
+  itemprop: "swallow portfolio piece"
+  link: "swallow"
+  alt: "preview asdasdas a swallow drawing."
+
+- image: "http://placehold.it/500x500"
+  itemprop: "swallow portfolio piece"
+  link: "swallow"
+  alt: "preview asdasdas a swallow drawing."
