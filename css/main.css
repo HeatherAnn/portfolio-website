@@ -75,10 +75,12 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
-.images {
+.container {
+  width: 350px;
+  height: 350px;
   overflow: hidden;
   position: relative;
 }
@@ -91,25 +93,36 @@ p {
   right:0;
   bottom: 0;
   transform: translateY(100%);
-  transition: all 0.2s ease;
+  transition: all 1s ease;
   text-align: center;
-  background: rgba(0,0,0,0.4);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.title:hover {
+.view {
+  font-size: 16px;
+}
+
+.view:hover {
   text-decoration: underline;
   cursor: pointer;
+  color: white;
 }
 
 .title {
   margin: 0;
   padding: 0;
-  line-height: 0.25em;
-  font-size: 2em;
+  font-size: 35px;
+}
+
+.container:hover .title-container {
+  transform: translateY(0);
+}
+
+.container .img img {
+  max-width: 100%;
 }
 
 .previewimg {
