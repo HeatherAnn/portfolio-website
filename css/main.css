@@ -127,7 +127,7 @@ p {
     -webkit-filter: brightness(100%);
 }
 
-.previewimg:hover {
+.content:hover .previewimg {
     -webkit-filter: brightness(30%);
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
