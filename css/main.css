@@ -221,6 +221,15 @@ h1, p, label {
   border-top: 1px solid white;
 }
 
+/*404*/
+
+.four {
+  font-size: 80px;
+}
+
+.fourimg {
+  width: 180px;
+}
 
 @media only screen and (min-width: 34em) {
 
