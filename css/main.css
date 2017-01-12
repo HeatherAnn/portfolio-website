@@ -12,6 +12,17 @@ html {
   text-size-adjust: 100%;
 }
 
+.embed {
+  padding: 0em 1.5em;
+  min-height: 500px;
+}
+
+.embed-item {
+  height: 100%;
+  width: 80%;
+  max-width: 100%;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -231,6 +242,14 @@ h1, p, label {
   width: 180px;
 }
 
+@media only screen and (min-width: 24em) {
+  iframe {
+    margin: 0.5em;
+    height: 200px;
+    width: 400px;
+  }
+}
+
 @media only screen and (min-width: 34em) {
 
   li {
@@ -240,10 +259,18 @@ h1, p, label {
 
 }
 
-@media only screen and (min-width: 60em) {
-
-  .bio {
-    margin-top: 100px;
+@media only screen and (min-width: 50em) {
+  iframe {
+    margin: 0.5em;
+    height: 400px;
+    width: 700px;
   }
+}
 
+@media only screen and (min-width: 60em) {
+  .bio {
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
